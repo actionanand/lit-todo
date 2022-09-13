@@ -1,0 +1,7 @@
+{
+  "src/my-element.ts": {
+    "file": "lit-todo.js",
+    "src": "src/my-element.ts",
+    "isEntry": true
+  }
+}
