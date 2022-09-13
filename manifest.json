@@ -1,7 +1,7 @@
 {
-  "index.html": {
-    "file": "lit-todo.es.js",
-    "src": "index.html",
+  "src/my-element.ts": {
+    "file": "lit-todo.mjs",
+    "src": "src/my-element.ts",
     "isEntry": true
   }
 }
