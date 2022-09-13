@@ -1,6 +1,6 @@
 {
   "src/my-element.ts": {
-    "file": "lit-todo.js",
+    "file": "lit-todo.mjs",
     "src": "src/my-element.ts",
     "isEntry": true
   }
