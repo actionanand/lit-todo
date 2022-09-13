@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
+// import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,10 +12,10 @@ export default defineConfig({
     },
     manifest: true,
     rollupOptions: {
-      external: /^lit/,
-      input: {
-        main: resolve(__dirname, 'index.html'),
-      },
+      // external: /^lit/,
+      // input: {
+      //   main: resolve(__dirname, 'index.html'),
+      // },
     }
   }
 })
