@@ -1,14 +1,20 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/lit-todo/',
   build: {
+    outDir: 'dist',
     lib: {
       entry: 'src/my-element.ts',
-      formats: ['es']
+      formats: ['es'],
     },
+    manifest: true,
     rollupOptions: {
-      external: /^lit/
-    }
-  }
+      input: {
+        main: resolve(__dirname, 'index.html'),
+      },
+    },
+  },
 })
